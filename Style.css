@@ -1,0 +1,84 @@
+/* body{
+    font-family: 'Source Sans 3', sans-serif;
+    color: black;
+    font-weight: 600;
+    margin: 0;
+    background-color: white;
+}
+
+HeaderSection 
+    
+#HeadSection{
+    display: inline-block;
+    width: 50%;
+}
+.content{
+    margin: 150px -144px 159px 95px; 
+    padding:  3.75rem 3rem 1.75rem 3rem;
+}
+
+#HeadSection div h1 p a{
+    color: black;
+}
+#HeadSection div h1{
+    font-size: 69px;
+    font-weight: 200;
+}
+#btn{
+    background-color: transparent;
+    font-size: 15px;
+    height: 4em;
+    line-height: 4em;
+    border: 2px solid #d4d4d4;
+    border-radius: 4em;
+    padding: 0 3em;
+    color: black;
+}
+
+#HeadSection div .image1{
+    width: 34%;
+}
+.image1{
+    -moz-flex-grow: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-grow: 0;
+    flex-grow: 0;
+    -moz-flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-shrink: 0;
+    flex-shrink: 0;
+    border-radius: 0;
+    width: 50%;
+    position: relative; 
+    width: 100%; 
+    display: inline-block; 
+    margin-right: 0 auto; 
+    margin: 0px 0px 0px 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 696px;
+}  */
+
+@keyframes slide{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.images{
+    overflow: hidden;
+    padding: 60px 0;
+    white-space: nowrap;
+}
+
+.images-slide{
+    display: inline-block;
+    animation: 13s slide infinite linear;
+}
+
+.images-slide img{
+    height: 300px;
+    margin: 0;
+}
